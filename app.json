@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "SeventyFive",
+    "slug": "seventyfive",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sync.seventyfive"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.sync.seventyfive"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "12003309-d343-492a-b99f-1814ed33cd36"
+      }
+    },
+    "owner": "sync",
+    "updates": {
+      "url": "https://u.expo.dev/12003309-d343-492a-b99f-1814ed33cd36"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
