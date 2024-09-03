@@ -38,7 +38,8 @@
             "default": "development"
           }
         }
-      ]
+      ],
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true
